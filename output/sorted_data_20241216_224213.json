@@ -1,0 +1,52 @@
+{
+    "listings": [
+        {
+            "Name": "Bulbasaur"
+        },
+        {
+            "Name": "Ivysaur"
+        },
+        {
+            "Name": "Venusaur"
+        },
+        {
+            "Name": "Charmander"
+        },
+        {
+            "Name": "Charmeleon"
+        },
+        {
+            "Name": "Charizard"
+        },
+        {
+            "Name": "Squirtle"
+        },
+        {
+            "Name": "Wartortle"
+        },
+        {
+            "Name": "Blastoise"
+        },
+        {
+            "Name": "Caterpie"
+        },
+        {
+            "Name": "Metapod"
+        },
+        {
+            "Name": "Butterfree"
+        },
+        {
+            "Name": "Weedle"
+        },
+        {
+            "Name": "Kakuna"
+        },
+        {
+            "Name": "Beedrill"
+        },
+        {
+            "Name": "Pidgey"
+        }
+    ]
+}

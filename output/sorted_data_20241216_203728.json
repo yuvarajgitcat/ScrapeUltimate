@@ -1,0 +1,8 @@
+{
+    "listings": [
+        {
+            "price": "string",
+            "Name": "string"
+        }
+    ]
+}

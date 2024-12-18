@@ -1,0 +1,68 @@
+{
+    "listings": [
+        {
+            "Name": "Bulbasaur",
+            "Price": "\u00a363.00"
+        },
+        {
+            "Name": "Ivysaur",
+            "Price": "\u00a387.00"
+        },
+        {
+            "Name": "Venusaur",
+            "Price": "\u00a3105.00"
+        },
+        {
+            "Name": "Charmander",
+            "Price": "\u00a348.00"
+        },
+        {
+            "Name": "Charmeleon",
+            "Price": "\u00a3165.00"
+        },
+        {
+            "Name": "Charizard",
+            "Price": "\u00a3156.00"
+        },
+        {
+            "Name": "Squirtle",
+            "Price": "\u00a3130.00"
+        },
+        {
+            "Name": "Wartortle",
+            "Price": "\u00a3123.00"
+        },
+        {
+            "Name": "Blastoise",
+            "Price": "\u00a376.00"
+        },
+        {
+            "Name": "Caterpie",
+            "Price": "\u00a373.00"
+        },
+        {
+            "Name": "Metapod",
+            "Price": "\u00a3148.00"
+        },
+        {
+            "Name": "Butterfree",
+            "Price": "\u00a3162.00"
+        },
+        {
+            "Name": "Weedle",
+            "Price": "\u00a325.00"
+        },
+        {
+            "Name": "Kakuna",
+            "Price": "\u00a3148.00"
+        },
+        {
+            "Name": "Beedrill",
+            "Price": "\u00a3168.00"
+        },
+        {
+            "Name": "Pidgey",
+            "Price": "\u00a3159.00"
+        }
+    ]
+}
