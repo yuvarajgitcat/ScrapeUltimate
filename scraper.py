@@ -183,8 +183,6 @@ def generate_system_message(listing_model: BaseModel) -> str:
     You are an intelligent text extraction and conversion assistant. Your task is to extract structured information 
                         from the given text and convert it into a pure JSON format. The JSON should contain only the structured data extracted from the text, 
                         with no additional commentary, explanations, or extraneous information.
-                        attack number are represented as "110-24".
-                        Also if there are URL or view btn to consequtive data, incidents list the URL along ex url "https://www.icc-ccs.org/index.php/piracy-reporting-centre/live-piracy-report/details/179/2540".
                         You could encounter cases where you can't find the data of the fields you have to extract or the data will be in a foreign language.
                         Please process the following text and provide the output in pure JSON format with no words before or after the JSON:
     Please ensure the output strictly follows this schema:

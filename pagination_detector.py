@@ -134,26 +134,30 @@ def detect_pagination_elements(url: str, indications: str, selected_model: str, 
 
         elif selected_model == "Llama3.1 8B":
             # Use Llama model via OpenAI API pointing to local server
-            openai.api_key = "lm-studio"
-            openai.api_base = "http://localhost:1234/v1"
-            response = openai.ChatCompletion.create(
-                model=LLAMA_MODEL_FULLNAME,
-                messages=[
-                    {"role": "system", "content": prompt_pagination},
-                    {"role": "user", "content": markdown_content},
-                ],
-                temperature=0.7,
+
+            client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
+
+            completion = client.chat.completions.create(
+            model=LLAMA_MODEL_FULLNAME, #change this if needed (use a better model)
+            messages=[
+                {"role": "system", "content": prompt_pagination},
+                {"role": "user", "content": markdown_content}
+            ],
+            temperature=0.7,
+            
+         
             )
-            response_content = response['choices'][0]['message']['content'].strip()
+            response_content =completion.choices[0].message.content.strip()
             # Try to parse the JSON
             try:
                 pagination_data = json.loads(response_content)
+                
             except json.JSONDecodeError:
                 pagination_data = {"next_buttons": [], "page_urls": []}
             # Token counts
             token_counts = {
-                "input_tokens": response['usage']['prompt_tokens'],
-                "output_tokens": response['usage']['completion_tokens']
+                "input_tokens": completion.usage.prompt_tokens,
+                "output_tokens": completion.usage.completion_tokens
             }
             # Calculate the price
             pagination_price = calculate_pagination_price(token_counts, selected_model)

@@ -125,7 +125,7 @@ You are an assistant that extracts pagination elements from markdown content of 
 
 Please extract the following:
 
-- The url of the 'Next', 'More', 'See more', 'load more' or any other button indicating how to access the next page, if any, it should be 1 url and no more, if there are multiple urls with the same structure leave this empty.
+- The url of the 'Next', 'More', 'See more', 'load more' , " page " or any other button or any url containing word "page" indicating how to access the next page.
 
 - A list of page URLs for pagination it should be a pattern of similar urls with pages that are numbered, if you detect this pattern and the numbers starts from a certain low number until a large number generate the rest of the urls even if they're not included, 
 your goal here is to give as many urls for the user to choose from in order for them to do further scraping, you will have to deal with very different websites that can potientially have so many urls of images and other elements, 
