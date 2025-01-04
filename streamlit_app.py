@@ -87,6 +87,7 @@ else:
     # Multiple URLs entered; disable Pagination and Attended Mode
     use_pagination = False
     attended_mode = False
+    pagination_details=''
     # Inform the user
     st.sidebar.info("Pagination and Attended Mode are disabled when multiple URLs are entered.")
 
