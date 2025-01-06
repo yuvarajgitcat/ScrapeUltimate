@@ -19,7 +19,7 @@ ScrapeUltimate is a universal web scraping application designed to extract struc
 ## Methodology
 The following image illustrates the methodology used in ScrapeUltimate:
 
-![Methodology](https://via.placeholder.com/600x400?text=Insert+Methodology+Image+Here)
+![Methodology](https://github.com/yuvarajgitcat/ScrapeUltimate/blob/master/assets/methodology.png)
 
 ### Steps:
 
